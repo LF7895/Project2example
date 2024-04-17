@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Project 2</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" type="text/css" href="css/style-1.css" />
+
+		<script src="libraries/p5.min.js"></script>
+		<script src="libraries/p5.sound.min.js"></script>
+		<script src="sketch-1.js"></script>
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a id="name">Lee Friedman</a></li>
+				<li><a id="active" href="#">method 1</a></li>
+				<li><a href="method2.html">method 2</a></li>
+				<li><a href="method3.html">method 3</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section>
+				<div class="title-box">
+					<h1 class="title">Intersecting Circles</h1>
+				</div>
+
+				<div id="sketch-container"></div>
+
+				<div class="flex-container">
+					<div class="flex-item-text">
+						<h3>Project Description</h3>
+						<p>
+							<strong id="red">Method 1</strong> puts the p5 sketch into
+							a div and assigns it an id of "sketch-container". This is
+							done in the <code>sketch-1.js</code> file in the setup
+							function. That div is styled using CSS (see the
+							<code>#sketch-conatiner</code> attributes in the
+							<code>styles-1.css</code> file. BTW, this page is not the
+							cleanest implementation of flex-box, so please try to
+							improve my code! Also notice the canvas height (fixed at
+							600) and the <code>windowResized</code> functions in the
+							sketch files.
+						</p>
+						<br />
+						<p id="greytext">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Corporis modi repudiandae debitis, voluptate minima enim
+							similique animi eum numquam dicta, accusantium autem nulla
+							tempore illo beatae iste nihil vero perferendis?
+						</p>
+					</div>
+					<div class="flex-item-text">
+						<h3>Instructions</h3>
+						<ol>
+							<li>Move mouse along x-axis to position circles.</li>
+							<li>Move mouse along y-axis to scale circles.</li>
+							<li>Then do this to make that happen.</li>
+							<li>Yet another instruction goes here.</li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="flex-container">
+					<div class="flex-item-image">
+						<img src="/images/proj-1.png" />
+						<p class="caption">
+							This is an image caption. Describe the image above.
+						</p>
+					</div>
+					<div class="flex-item-image">
+						<img src="/images/proj-2.png" />
+						<p class="caption">This is an image caption.</p>
+					</div>
+					<div class="flex-item-image">
+						<img src="images/proj-3.png" />
+						<p class="caption">This is an image caption.</p>
+					</div>
+				</div>
+				<div class="flex-container">
+					<div class="flex-item-text">
+						<h3>Concepts</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Fugiat incidunt tenetur dolorem esse error ipsum beatae
+							soluta dicta, provident porro quos totam nisi asperiores
+							quo repudiandae natus maxime voluptate quisquam rem culpa
+							saepe repellat quidem voluptatum? Impedit assumenda
+							voluptas dolor possimus eum recusandae harum soluta tempora
+							aliquam ratione. Ipsam, tempora!
+						</p>
+					</div>
+					<div class="flex-item-image">
+						<img id="boxed" src="images/venn-3.jpg" />
+						<p class="caption">This is an image caption.</p>
+					</div>
+					<div class="flex-item-image">
+						<img src="images/venn-2.jpg" />
+						<p class="caption">This is an image caption.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>DES-327   |    Lee Friedman</p>
+		</footer>
+	</body>
+</html>
